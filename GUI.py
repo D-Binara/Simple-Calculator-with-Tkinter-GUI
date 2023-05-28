@@ -19,6 +19,9 @@ but.pack(side=TOP , fill=X, pady=10)
 but2=Button(l, text="Click2",command=Click)
 but2.pack( fill=BOTH , expand=1)
 
+b1=Button(l, text="1",command=Click)
+b1.pack()
+
 fr=Frame(l)
 fr.pack(fill=BOTH)
 
